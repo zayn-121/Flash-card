@@ -1,0 +1,28 @@
+
+
+body {
+  margin: 0;
+  min-width: 320px;
+  min-height: 100vh;
+}
+.App{
+  display: flex;
+  flex-wrap: wrap;
+  /* width: 50rem; */
+ 
+}
+.card{
+  background-color: lightgrey;
+  width: 20rem;
+  padding: 1rem;
+  margin: 1rem;
+  border-radius: 0.5rem;
+}
+.active{
+  background-color: lawngreen;
+  width: 20rem;
+  padding: 1rem;
+  margin: 1rem;
+  border-radius: 0.5rem;
+  color: black;
+}
